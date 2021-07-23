@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-button {
+    background-color: #aef4e9;
+    width: 700px;
+    height: 700px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-button-items {
+    display: flex;
+}
+
+.background-button-item button{
+    width: 150px;
+    height: 50px;
+    margin: 50px;
+    border-style: none;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    transform: scaleY(0.5) translateY(-45%, -45%);
+}
+
+.background-button-item button:hover {
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    transform: scale(1) translate(-1%, -1%);
+}
